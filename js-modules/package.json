@@ -1,0 +1,19 @@
+{
+  "name": "js-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "Edson Souza <edson11@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^3.0.0-rc.2"
+  }
+}
